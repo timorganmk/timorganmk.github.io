@@ -1,7 +1,7 @@
 /* styles.css */
 .header {
-    background-color: #7FFFD4; /* Dark gray background color */
-    color: #000000; /* White text color */
+    background-color: #7FFFD4; /* aquamarine background */
+    color: #000000; /* black text color */
     padding: 20px; /* Add some padding for spacing */
     text-align: center; /* Center-align the text */
 }
@@ -14,3 +14,8 @@
 .header p {
     margin: 10px 0; /* Add some margin for spacing */
 }
+
+body {
+	font-family: Ariel, sans-serif; /* set font for entire body */
+	background-color: #f0f0f0; /* light gray background */
+	padding: 20px; /* add padding to body */
