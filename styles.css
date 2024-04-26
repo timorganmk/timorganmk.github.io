@@ -1,0 +1,16 @@
+/* styles.css */
+.header {
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center; /* Center-align the text */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 36px; /* Larger font size for the heading */
+}
+
+.header p {
+    margin: 10px 0; /* Add some margin for spacing */
+}
