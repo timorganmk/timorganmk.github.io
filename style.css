@@ -1,0 +1,59 @@
+html{
+    background-color: rgb(255, 249, 242);
+}
+
+#header-field{
+    background-color: #D9EDBF;
+    height: 100px;
+    position: relative;
+}
+
+#resume-pic{
+    height: 70px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+/* smaller pic on smaller screen */
+@media (max-width: 600px) {
+    #resume-pic{
+        display: none;
+    }
+}
+
+#header-name{
+    position: absolute;
+    width: 100%;
+}
+#header-name h1{
+    text-align: center;
+}
+
+#links01{
+    position: absolute;
+    width: 100%;
+    top: 75%;
+}
+#links01{
+    text-align: center;
+}
+
+#paragraph-intro{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#barrier{
+    background-color: #FF9800;
+    height: 25px;
+}
+#footer-links{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding-bottom: 10px;
+}
+.linkin-icon{
+    height: 25px;
+    
+}
