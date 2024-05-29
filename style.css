@@ -1,50 +1,74 @@
 html{
-    background-color: rgb(255, 249, 242);
+    background-color: #EEF7FF;
 }
 
 #header-field{
-    background-color: #D9EDBF;
+    background-color: #7AB2B2;
     height: 100px;
-    position: relative;
+}
+
+.header-l1{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header-name{
+    grid-row: 2;
+    grid-column: 2;
+    justify-content: center;
+}
+
+.header-name h1{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#links01{
+    grid-row: 3;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button{
+    background-color: #F0D290;
+    border: 0;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.header-tim-pic{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column: 1;
 }
 
 #resume-pic{
     height: 70px;
-    position: absolute;
-    top: 15px;
-    left: 15px;
+    border-radius: 50%;
+    padding: 15px;
+    
 }
-/* smaller pic on smaller screen */
+
+/* remove pic on smaller screen */
 @media (max-width: 600px) {
     #resume-pic{
         display: none;
     }
 }
 
-#header-name{
-    position: absolute;
-    width: 100%;
-}
-#header-name h1{
-    text-align: center;
-}
-
-#links01{
-    position: absolute;
-    width: 100%;
-    top: 75%;
-}
-#links01{
-    text-align: center;
-}
-
 #paragraph-intro{
-    width: 50%;
-    margin-left: 25%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 #barrier{
-    background-color: #FF9800;
+    background-color: #7AB2B2;
     height: 25px;
 }
 #footer-links{
@@ -55,5 +79,4 @@ html{
 }
 .linkin-icon{
     height: 25px;
-    
 }
